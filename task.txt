@@ -1,0 +1,21 @@
+Create a simple subscription platform(only RESTful APIs with MySQL) in which users can subscribe to a website (there can be multiple websites in the system). Whenever a new post is published on a particular website, all it's subscribers shall receive an email with the post title and description in it. (no authentication of any kind is required)
+MUST:-
+- Use PHP 8.* and Laravel 10
+- Write migrations for the required tables.
+- Seeded data of the websites.
+- No authentication needed, the subscribers table must keep user_id and email.
+- Endpoint to create a "post" for a "particular website" with validation.
+- Endpoint to make subscribe an email to a "particular website" with validation.
+- Use of command to send email to the subscribers, the email should not be sent automatically, the command must load all posts and sent to website subscribers.
+- Use of queues to schedule sending in background.
+- No duplicate stories should get sent to subscribers.
+- Deploy the code on a public github repository and rent the url of the repository as a reply of this message.
+Optional:
+- Use of contracts & services.
+
+Note:
+1. Please provide special instructions(if any) to make to code base run on our local/remote platform.
+2. Only implement what is mentioned in brief, i.e. only the API, no front-end things etc. The codes will never be deployed, we just want to see your coding skills.
+3. There isn't a strict deadline. The faster the better, however code quality (and implementing it as mentioned in brief) is the most important.
+4. If anything isn't clear, just implement it according to your understanding. There won't be any further explanations, the task is clear. As long as what you do doesn't contradict the briefing, it's fine.
+5. Please let us know how much did it take to complete the task.
